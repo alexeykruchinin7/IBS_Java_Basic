@@ -6,13 +6,13 @@ public class Convector {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
 
-        System.out.println("Выберите что переводить: 1 - масса, 2 - расстояние");
+        System.out.println("Выберите что переводить: 1 - масса, 2 - расстояние:");
         int type = console.nextInt();
 
-        // масса
+        // если масса
         if (type == 1) {
 
-            System.out.println("Выберите единицу измерения: 1 - килограмм, 2 - фунт, 3 - унция");
+            System.out.println("Выберите единицу измерения: 1 - килограмм, 2 - фунт, 3 - унция:");
             int unit = console.nextInt();
 
             System.out.println("Введите количество выбранных единиц:");
@@ -46,7 +46,7 @@ public class Convector {
             //расстояние
             else if (type == 2) {
 
-                System.out.println("Выберите единицу измерения: 1 - метр, 2 - миля, 3 - ярд, 4 - фут");
+                System.out.println("Выберите единицу измерения: 1 - метр, 2 - миля, 3 - ярд, 4 - фут:");
                 int unit = console.nextInt();
 
                 System.out.println("Введите количество выбранных единиц:");
